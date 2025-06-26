@@ -5,7 +5,7 @@ using namespace std;
 bool division_of_array(vector<int> & arr){
     int n ,sum;
     n = arr.size();
-    sum = 0;
+    sum = INT_MIN;
     for(int i = 0;i<n;i++){
         sum += arr[i];
     }
